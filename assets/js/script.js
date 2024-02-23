@@ -157,3 +157,22 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  var dropdown = document.querySelector('.dropbtn');
+  var dropdownContent = document.querySelector('.dropdown-content');
+
+  function toggleDropdown(event) {
+      if (dropdown.contains(event.target)) {
+          if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+          } else {
+              dropdownContent.style.display = "block";
+          }
+      } else if (!dropdownContent.contains(event.target)) {
+          dropdownContent.style.display = "none";
+      }
+  }
+
+  document.addEventListener('click', toggleDropdown);
+});
