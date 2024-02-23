@@ -227,6 +227,14 @@ article.active {
   color: var(--white-2);
 }
 
+.whiteee {
+  color: var(--light-gray);
+}
+
+.whiteeee, .whiteee  {
+  display: inline;
+}
+
 .h2 { font-size: var(--fs-1); }
 
 .h3 { font-size: var(--fs-2); }
