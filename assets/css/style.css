@@ -1893,8 +1893,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .dropdown-content p {
-  color: black;
-  padding: 12px 16px;
+  color: var(--light-gray);
   text-decoration: none;
   display: block;
 }
