@@ -135,7 +135,6 @@ button {
   background: none;
   border: none;
   text-align: left;
-  cursor: pointer;
 }
 
 input,
@@ -264,7 +263,7 @@ article.active {
 }
 
 .h5 {
-  font-size: var(--fs-7);
+  font-size: 16px;
   font-weight: var(--fw-500);
 }
 
@@ -312,7 +311,6 @@ article.active {
   padding-top: 45px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
-  cursor: pointer;
   z-index: 1;
 }
 
