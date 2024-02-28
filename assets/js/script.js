@@ -158,7 +158,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+/**document.addEventListener('DOMContentLoaded', function() {
   var dropdown = document.querySelector('.dropbtn');
   var dropdownContent = document.querySelector('.dropdown-content');
 
@@ -175,4 +175,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   document.addEventListener('click', toggleDropdown);
-});
+});**/
