@@ -97,6 +97,20 @@
 
 }
 
+
+.social-links {
+  background-image: url(/assets/images/bds-logo\(2\).png);
+  width: 25;
+  position: relative;
+  right: 3px;
+  transition: all 0.5s ease;
+}
+
+.social-links:hover {
+  mask-image: url(/assets/images/bds-logo\(3\).png);
+  
+}
+
 /**
 @media (prefers-color-scheme: light) {
   body {
